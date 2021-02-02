@@ -489,6 +489,28 @@ header .overlay {
   color: #12333d;
   border-bottom: 1px solid #f85708;
 }
+.blog-btn-holder{
+  display: flex;
+}
+.read-our-blog-btn {
+  margin: 25px auto auto auto;
+  padding: 10px 0 30px 0;
+  height: 30px;
+  width: 168px;
+  color: #12333d;
+  font-family: "ballinger", serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 30px;
+  border-radius: 0;
+  border-bottom: 1px solid #f85708;
+}
+.read-our-blog-btn:hover, .read-our-blog-btn:focus, .read-our-blog-btn:active {
+  text-decoration: none;
+  color: #12333d;
+  border-bottom: 1px solid #f85708;
+}
 .sensors-kit > h2 {
   margin: auto;
   width: 437px;
