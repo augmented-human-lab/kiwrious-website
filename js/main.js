@@ -9,8 +9,6 @@ $( window ).on("load", function() {
 $(document).ready(function () {
 
 
-
-
   const typewriter = new Typewriter('.center-jumbotron-header', {
     cursor: null,
     loop: true,
@@ -96,8 +94,11 @@ $(document).ready(function () {
     })
   }));
 
-
+  if(location.hash === '#privacy-policy') {
+    $('#privacyBtn').trigger('click');
+  }
 });
+
 function fixImageBoxes() {
   $('.image-box-container .image-box .content .visible-title').each((function(item) {
     const content = $(this).children('h4');
